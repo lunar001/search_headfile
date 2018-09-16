@@ -90,7 +90,7 @@ def search_head_files(head_path, src_path):
 
 
 
-f __name__ == '__main__':
+if __name__ == '__main__':
     #search_head_files(sys.argv[1], sys.argv[2])
     search_head_files('dirpath1', 'dirpaht2')
    # search_head_files('./h', './src/') 
